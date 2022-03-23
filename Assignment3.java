@@ -6,9 +6,9 @@ public class Assignment3 {
     private static BST tree = new BST();
 
     public static void main(String[] args) {
-        String Read = args[0] + ".txt";
-        String BFS = args[1] + ".txt";
-        String DFS = args[2] + ".txt";
+        String Read = args[0];
+        String BFS = args[1];
+        String DFS = args[2];
 
         try {
             File file = new File(Read);
